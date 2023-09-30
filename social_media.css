@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden;
+    background-color: rgb(16, 186, 189);
+    background:linear-gradient(to right, blue,rgb(16, 186, 189), greenyellow);
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background-color:fuchsia; */
+}
+.main-insta{
+    /* background:linear-gradient( violet,rgb(189, 27, 149),red,yellow); */
+    background: radial-gradient(circle  at 30% 107% , #fdf497 0% , #fdf497 5% ,#fd5949 45%, #d6249f 60%, #285aeb 90%    );
+    /* background: radial-gradient(circle farthest-corner at 28% 100% , var(--yellow) 0% , var(--orange) 22% ,var(--red) 35% ,transparent 65%),
+    linear-gradient(145deg,var(--blue)10%,var(--purple)70%s); */
+    height: 350px;
+    width: 350px;
+    border-radius: 35px;
+    position: absolute;
+    top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transform: scale(1.05);
+}
+.square{
+    margin:40px;
+    border:12px solid white;
+    border-radius: 32px;
+    height:270px;
+    width:270px;
+}
+.circle{
+    margin: 30px;
+    height: 180px; 
+    width:180px;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+/* .dot{
+    
+   
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 165px;
+} */
+.dot{
+    font-size: 100px;
+    background-color:white;
+    transform: rotate(90deg);
+    color:white;
+    height: 25px;
+    width: 25px;
+    top: -30px;
+    left: 165px;
+    border-radius: 50%;
+    position: relative;
+    /* height: 10px;
+    width: 10px;  */
+}
+/* @media screen and (max-width:1400px){
+    .main-insta{
+        transform: scale(1.4);
+      }
+    
+}
+@media screen and (max-width:1300px){
+    .main-insta{
+        transform: scale(1.1);
+      }
+    
+}
+@media screen and (max-width:1200px){
+    .main-insta{
+        transform: scale(1.1);
+      }
+    
+}
+@media screen and (max-width:1100px){
+    .main-insta{
+        transform: scale(1.1);
+      }
+    
+}
+@media screen and (max-width:1000px){
+    .main-insta{
+        transform: scale(1);
+      }
+    
+}
+@media screen and (max-width:900px){
+    .main-insta{
+        transform: scale(0.9);
+      }
+    
+}
+@media screen and (max-width:800px){
+    .main-insta{
+        transform: scale(0.8);
+      }
+    
+}
+@media screen and (max-width:700px){
+    .main-insta{
+        transform: scale(0.7);
+      }
+    
+}
+@media screen and (max-width:600px){
+    .main-insta{
+        transform: scale(0.6);
+      }
+    
+}
+@media screen and (max-width:500px){
+    .main-insta{
+        transform: scale(0.5);
+      }
+    
+}
+@media screen and (max-width:400px){
+    .main-insta{
+        transform: scale(0.4);
+      }
+    
+}
+@media screen and (max-width:300px){
+    .main-insta{
+        transform: scale(0.3);
+      }
+    
+}
+@media screen and (max-width:200px){
+    .main-insta{
+        transform: scale(0.2);
+      }
+    
+}
+@media screen and (max-width:100px){
+    .main-insta{
+        transform: scale(0.1);
+      }
+    
+} */
+
+
+
+
+.main-youtube{
+    background-color: red;
+    height: 400px;
+    width:400px;
+    border-radius: 12px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.rectangle{
+    background-color: white;
+    border-radius: 12px;
+    width: 300px;
+    height: 230px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+.main{
+    transform: translate(13%,-1%) scale(0.4);
+}
+
+.left{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+}
+.t1{
+    background-color: red;
+}
+.t2{
+    background-color: white;
+    position: relative;
+    top: -23px;
+    left: -168px;
+    transform: rotate(30deg);
+    width: 250px;
+}
+.t3{
+    background-color:white;
+    width: 250px;
+    position: relative;
+    top: 24px;
+    left: -167px;
+    transform: rotate(-30deg);
+}
+@media screen and (max-width:1300px){
+    .main-youtube{
+        transform: scale(.9);
+      }
+    
+}
+@media screen and (max-width:1200px){
+    .main-youtube{
+        transform: scale(.9);
+      }
+    
+}
+@media screen and (max-width:1100px){
+    .main-youtube{
+        transform: scale(.9);
+      }
+    
+}
+@media screen and (max-width:1000px){
+    .main-youtube{
+        transform: scale(.9);
+      }
+    
+}
+@media screen and (max-width:900px){
+    .main-youtube{
+        transform: scale(0.9);
+      }
+    
+}
+@media screen and (max-width:800px){
+    .main-youtube{
+        transform: scale(0.8);
+      }
+    
+}
+@media screen and (max-width:700px){
+    .main2{
+        transform: scale(0.7);
+      }
+    
+}
+@media screen and (max-width:600px){
+    .main-youtube{
+        transform: scale(0.6);
+      }
+    
+}
+@media screen and (max-width:500px){
+    .main-youtube{
+        transform: scale(0.5);
+      }
+    
+}
+@media screen and (max-width:400px){
+    .main-youtube{
+        transform: scale(0.4);
+      }
+    
+}
+@media screen and (max-width:300px){
+    .main-youtube{
+        transform: scale(0.3);
+      }
+    
+}
+@media screen and (max-width:200px){
+    .main-youtube{
+        transform: scale(0.2);
+      }
+    
+}
+@media screen and (max-width:100px){
+    .main-youtube{
+        transform: scale(0.1);
+      }
+    
+}
+
+
+
+.main-facebook{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -89px;
+    left: 430px;
+    transform: scale(1.05);
+}
+.facebook-box{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(7, 85, 162);
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+}
+.f{
+    font-size: 467px;
+    margin-top: -94px;
+    /* font-weight: 800; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#buttons{
+    height: 100px;
+    width: 100px;
+    background-color: #fdf497;
+}
